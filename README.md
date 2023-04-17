@@ -19,12 +19,12 @@ Consequently, the performance is terrible and the code does not use syntax sugar
 
 ### Reproducing examples
 The screenshots folder contains result for the two example bitmaps in this repo. Both were made with 4 steps in total.
-Open you command line or bash and move to the repo folder. Then use
+Open your command line and move to the repo folder. Then use
 ````
-python main.py <path to example1.bmp> 4
+python main.py example1.bmp 4
 ````
 or
 ````
-python main.py <path to example2.bmp> 4
+python main.py example2.bmp 4
 ````
 to reproduce the examples.
