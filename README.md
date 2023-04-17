@@ -2,6 +2,11 @@
 An example implementation of the jump-flooding-algorithm for finding 2D distance fields from images.
 
 ### Usage
+First, install the dependencies with 
+```
+pip install -r requirements.txt
+```
+Then you can use main.py with arguments:
 ```
 python main.py <path to image file> <Number of steps to perform>
 ````
