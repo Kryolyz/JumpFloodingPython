@@ -1,2 +1,25 @@
 # JumpFloodingPython
 An exemplary implementation of the jump-flooding-algorithm for finding 2D distance fields from images.
+
+### Usage
+```
+python main.py <path to image file> <Number of steps to perform>
+````
+The output will be several windows showing the image, the detected edges, and the resulting distance field.
+Note that the algorithm turns your image file into a bitmap and finds those edges, meaning "normal" images don't work
+
+### Caveats
+This example is meant to be easily understood above anything else. I made it for myself because I wanted to implement JFA in unity with a compute shader and had to make sure that I understood the algorithm fully beforehand.
+Consequently, the performance is terrible and the code does not use syntax sugar like numpy vectorization at all because I wanted everything to be simple and clean, such that the logic is easy to follow. 
+
+### Reproducing examples
+The screenshots folder contains result for the two example bitmaps in this repo. Both were made with 4 steps in total.
+Open you command line or bash and move to the repo folder. Then use
+````
+python main.py <path to example1.bmp> 4
+````
+or
+````
+python main.py <path to example2.bmp> 4
+````
+to reproduce the examples.
