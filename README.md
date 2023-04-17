@@ -1,4 +1,4 @@
-# JumpFloodingPython
+# Jump Flooding Algorithm in Python
 An example implementation of the jump-flooding-algorithm for finding 2D distance fields from images.
 
 ### Usage
